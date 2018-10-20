@@ -3,7 +3,7 @@ This repo contains [Homebrew](https://brew.sh/) formulae.
 
 # Installation
 
-## Elasticsearch 1.7.6
+## Elasticsearch 1.7.6_1
 `brew install "https://raw.githubusercontent.com/sevenlist/homebrew/master/elasticsearch@1.7.rb"`
 
 Depending on if you have installed a current version of Elasticsearch via Homebrew, you need to sym link Elasticsearch 1.7 manually to be able to use it:
