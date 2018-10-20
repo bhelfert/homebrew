@@ -7,12 +7,12 @@ This repo contains [Homebrew](https://brew.sh/) formulae.
 `brew install "https://raw.githubusercontent.com/sevenlist/homebrew/master/elasticsearch@1.7.rb"`
 
 Depending on if you have installed a current version of Elasticsearch via Homebrew, you need to sym link Elasticsearch 1.7 manually to be able to use it:
-`brew unlink elasticsearch`
-`brew link elasticsearch@1.7 --force`
+1. `brew unlink elasticsearch`
+2. `brew link elasticsearch@1.7 --force`
 
 Undo that using:
-`brew unlink elasticsearch@1.7`
-`brew link elasticsearch`
+1. `brew unlink elasticsearch@1.7`
+2. `brew link elasticsearch`
 
 If you need more infos about the installation (e.g. file paths) type `brew info elasticsearch@1.7`.
 
