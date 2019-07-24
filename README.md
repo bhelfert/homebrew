@@ -18,3 +18,9 @@ If you need more infos about the installation (e.g. file paths) type `brew info 
 
 ### About the formula code
 This formula was taken from the official Homebrew repository ([homebrew-core](https://github.com/Homebrew/homebrew-core/)), before it has been removed (commit [390173e](https://github.com/Homebrew/homebrew-core/commit/390173e9035a2bb4b107930c11f07d31a204ea23)) as Elasticsearch 1.7 has reached its EOL. The formula has been fixed so that it can be installed with Homebrew 1.7.7.
+
+## OpenShift CLI 3.11
+`brew install "https://raw.githubusercontent.com/sevenlist/homebrew/master/openshift-cli@3.11.rb"`
+
+### About the formula code
+This formula was taken from the official Homebrew repository ([homebrew-core](https://github.com/Homebrew/homebrew-core/)), before it has been removed (commit [1446e1f](https://github.com/Homebrew/homebrew-core/commit/1446e1f05b4d4eb76dca1efe4eff5910c133a5cf)).
