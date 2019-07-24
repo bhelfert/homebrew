@@ -22,5 +22,15 @@ This formula was taken from the official Homebrew repository ([homebrew-core](ht
 ## OpenShift CLI 3.11
 `brew install "https://raw.githubusercontent.com/sevenlist/homebrew/master/openshift-cli@3.11.rb"`
 
+Depending on if you have installed a current version of OpenShift CLI via Homebrew, you need to sym link OpenShift CLI 3.11 manually to be able to use it:
+1. `brew unlink openshift-cli`
+2. `brew link openshift-cli@3.11 --force`
+
+Undo that using:
+1. `brew unlink openshift-cli@3.11`
+2. `brew link openshift-cli`
+
+If you need more infos about the installation (e.g. file paths) type `brew info openshift-cli@3.11`.
+
 ### About the formula code
 This formula was taken from the official Homebrew repository ([homebrew-core](https://github.com/Homebrew/homebrew-core/)), before it has been removed (commit [1446e1f](https://github.com/Homebrew/homebrew-core/commit/1446e1f05b4d4eb76dca1efe4eff5910c133a5cf)).
